@@ -1,0 +1,11 @@
+r = 14
+print("*" * r, end="\n")
+i = (r // 2) - 1
+j = 2
+while i != 0:
+    while j <= (r - 2):
+        print("*" * i, end="")
+        print("_" * j, end="")
+        print("*" * i, end="\n")
+        i = i - 1
+        j = j + 2
